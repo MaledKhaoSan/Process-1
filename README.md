@@ -14,11 +14,11 @@
 </p>
 <p align="center">
   <a href="#about-the-project">About The Project</a> •
-  <a href="#usage">How To Use</a> •
-  <a href="#examples">Examples</a> •
-  <a href="#best-practice">Best Practice</a> •
-  <a href="#credits">Credits</a> •
-  <a href="examples.md">More Examples</a>
+  <a href="#usage">Overview</a> •
+  <a href="#examples">Introduction</a> •
+  <a href="#best-practice">Tables</a> •
+  <a href="#credits">Contributors</a> •
+  <a href="examples.md">Source</a>
 </p>  
 
 ## Computer Organization and Operating System Assignment :pushpin:
