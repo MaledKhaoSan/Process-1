@@ -1,11 +1,9 @@
-![made-with-python](https://img.shields.io/badge/Made%20with-Python3-brightgreen)
-
 <!-- LOGO -->
 <br />
 <h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/L0garithmic/FastColabCopy/main/img/logo.png" alt="Logo" width="140" height="110">
-  <br>FastColabCopy
+  <img src="[https://raw.githubusercontent.com/L0garithmic/FastColabCopy/main/img/logo.png](https://cdn-icons-png.flaticon.com/512/518/518713.png)" alt="Logo" width="140" height="110">
+  <br>Linux
 </h1>
   <p align="center">
     how process management is handled in the Linux operating system.
