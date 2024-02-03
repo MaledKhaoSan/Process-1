@@ -8,7 +8,7 @@
   <br>FastColabCopy
 </h1>
   <p align="center">
-    Python3 script to transfer files in Google Colab 10-50x faster.
+    how process management is handled in the Linux operating system.
     <br />
     </p>
 </p>
