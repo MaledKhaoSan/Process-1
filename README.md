@@ -1,3 +1,26 @@
+![made-with-python](https://img.shields.io/badge/Made%20with-Python3-brightgreen)
+
+<!-- LOGO -->
+<br />
+<h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/L0garithmic/FastColabCopy/main/img/logo.png" alt="Logo" width="140" height="110">
+  <br>FastColabCopy
+</h1>
+  <p align="center">
+    Python3 script to transfer files in Google Colab 10-50x faster.
+    <br />
+    </p>
+</p>
+<p align="center">
+  <a href="#about-the-project">About The Project</a> •
+  <a href="#usage">How To Use</a> •
+  <a href="#examples">Examples</a> •
+  <a href="#best-practice">Best Practice</a> •
+  <a href="#credits">Credits</a> •
+  <a href="examples.md">More Examples</a>
+</p>  
+
 ## Computer Organization and Operating System Assignment :pushpin:
 รายงานฉบับนี้เป็นส่วนหนึ่งของวิชา 06016412 COMPUTER ORGANIZATION AND OPERATING SYSTEM ชั้นปีที่ 2 (2/2023) โดยมีจุดประสงค์เพื่อศึกษาความรู้ที่ได้จากเรื่อง Process ของ Linux ซึ่งรายงานนี้นำเสนอความรู้พื้นฐานเกี่ยวกับProcess ใน Linux โดยอธิบายองค์ประกอบสำคัญของโพรเซส เช่น สถานะprocess การจัดการหน่วยความจำ และการจัดตารางเวลา รวมถึงการทำงานของprocessใน Linux เป้าหมายของรายงานนี้ คือ เพื่อช่วยให้ผู้อ่านเข้าใจระบบprocess ใน Linux และสามารถจัดการprocessต่างๆ บนคอมพิวเตอร์ได้อย่างมีประสิทธิภาพ
 
