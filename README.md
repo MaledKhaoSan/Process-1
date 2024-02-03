@@ -2,7 +2,7 @@
 <br />
 <h1>
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/518/518713.png" alt="Logo" width="140" height="110">
+  <img src="https://cdn-icons-png.flaticon.com/512/518/518713.png" alt="Logo" width="auto" height="110">
   <br>Linux
 </h1>
   <p align="center">
