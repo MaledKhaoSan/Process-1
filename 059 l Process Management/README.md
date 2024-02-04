@@ -1,6 +1,6 @@
 <a id="text"></a>
 # :round_pushpin: Process Management
-Process Management เป็น Subcomponent ของ Process Component ในระบบ Linux ที่มีหน้าที่ควบคุมกระบวนการทั้งหมดในระบบ และหลักการของ Process Management ประกอบไปด้วย 3 หลักนี้
+Process Management ในระบบ Linux ที่มีหน้าที่ควบคุมกระบวนการทั้งหมดในระบบ และหลักการของ Process Management ประกอบไปด้วย 3 หลักนี้
 
 1. Process Creation (การเริ่มต้นกระบวนการ):
   - สร้าง process ใหม่
