@@ -4,17 +4,16 @@ Process Management ในระบบ Linux มีหน้าที่จัด
 <br><br>
 > [!TIP]
 > ด้วยหลักการของ Process Management ทั้งสามนี้ช่วยให้ระบบปฏิบัติการสามารถจัดการกระบวนการในระบบได้อย่างถูกต้อง
-> 1. Process Creation (การเริ่มต้นกระบวนการ):
->    - สร้าง process ใหม่
->    - โหลดโปรแกรมเข้าสู่ process ใหม่
->2. Process Control (การควบคุมการทำงาน):
->    - กำหนดเวลา CPU ให้กับ process
->    - จัดลำดับความสำคัญของ process
->    - ควบคุมการเข้าถึงทรัพยากรของ process
->3. Process Termination (การหยุดกระบวนการ):
->    - ยุติ process
->    - เก็บกวาดทรัพยากรที่ process ใช้
->
+1. Process Creation (การเริ่มต้นกระบวนการ):
+   - สร้าง process ใหม่
+    - โหลดโปรแกรมเข้าสู่ process ใหม่
+2. Process Control (การควบคุมการทำงาน):
+    - กำหนดเวลา CPU ให้กับ process
+    - จัดลำดับความสำคัญของ process
+    - ควบคุมการเข้าถึงทรัพยากรของ process
+3. Process Termination (การหยุดกระบวนการ):
+    - ยุติ process
+    - เก็บกวาดทรัพยากรที่ process ใช้
 
 ---
 
