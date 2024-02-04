@@ -11,7 +11,7 @@
     </p>
 </p>
 <p align="center">
-  <a href="#computer-organization-and-operating-system-assignment">About The Project</a> •
+  <a href="#about">About The Project</a> •
   <a href="#overview">Overview</a> •
   <a href="#examples">Introduction</a> •
   <a href="#best-practice">Tables</a> •
@@ -19,12 +19,12 @@
   <a href="examples.md">Source</a>
 </p>  
 
-## Computer Organization and Operating System Assignment :pushpin:
+## Computer Organization and Operating System Assignment :pushpin: (#about)
 รายงานฉบับนี้เป็นส่วนหนึ่งของวิชา 06016412 COMPUTER ORGANIZATION AND OPERATING SYSTEM ชั้นปีที่ 2 (2/2023) โดยมีจุดประสงค์เพื่อศึกษาความรู้ที่ได้จากเรื่อง Process ของ Linux ซึ่งรายงานนี้นำเสนอความรู้พื้นฐานเกี่ยวกับProcess ใน Linux โดยอธิบายองค์ประกอบสำคัญของโพรเซส เช่น สถานะprocess การจัดการหน่วยความจำ และการจัดตารางเวลา รวมถึงการทำงานของprocessใน Linux เป้าหมายของรายงานนี้ คือ เพื่อช่วยให้ผู้อ่านเข้าใจระบบprocess ใน Linux และสามารถจัดการprocessต่างๆ บนคอมพิวเตอร์ได้อย่างมีประสิทธิภาพ
 
 ---
 
-## Overview :pushpin:
+## Overview :pushpin: (#overview)
 ในระบบปฏิบัติการ Linux,  Process ใน Linux คือ เปรียบเสมือนโปรแกรมที่กำลังทำงานอยู่ เป็นหน่วยพื้นฐานของการประมวลผลในระบบ Linux แต่ละ process จะมีหน่วยความจำ พื้นที่ว่างบนดิสก์ และทรัพยากรระบบอื่นๆ ของตัวเอง ช่วยให้ผู้ใช้สามารถทำงานหลายอย่างพร้อมกัน ใช้ทรัพยากรอย่างมีประสิทธิภาพ และปรับแต่งระบบ Linux ให้ทำงานตามต้องการ
 
 ---
