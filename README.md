@@ -82,17 +82,12 @@ Process Components ใน Linux
 > - Book
 >    - Paul Cobbau, Linux Storage - https://linux-training.be/linuxsto.pdf
 >    - Richard Petersen, The Complete Reference Linux 6th Edition - https://doc.lagout.org/operating%20system%20/linux/Linux%20-%20The%20Complete%20Reference.pdf
-
-
-- Book
-  - Paul Cobbau, Linux Storage - https://linux-training.be/linuxsto.pdf
-  - Richard Petersen, The Complete Reference Linux 6th Edition - https://doc.lagout.org/operating%20system%20/linux/Linux%20-%20The%20Complete%20Reference.pdf
-- Webpage
-  - Linux File System - GeeksforGeeks. https://www.geeksforgeeks.org/linux-file-system/.
-  - Linux File System: Understanding Directory Structure ... - howtouselinux. https://www.howtouselinux.com/post/linux-file-system-understanding-directory-structure-and-navigating-the-file-system.
-  - Guide to Linux Filesystems | Baeldung on Linux. https://www.baeldung.com/linux/filesystems.
-  - Partitions And Filesystems In Linux – Introduction. https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems.
-  - Linux File System - javatpoint. https://www.javatpoint.com/linux-file-system.
+> - Webpage
+>    - Linux File System - GeeksforGeeks. https://www.geeksforgeeks.org/linux-file-system/.
+>    - Linux File System: Understanding Directory Structure ... - howtouselinux. https://www.howtouselinux.com/post/linux-file-system-understanding-directory-structure-and-navigating-the-
+>    - Guide to Linux Filesystems | Baeldung on Linux. https://www.baeldung.com/linux/filesystems.
+>    - Partitions And Filesystems In Linux – Introduction. https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems.
+>    - Linux File System - javatpoint. https://www.javatpoint.com/linux-file-system.
 
 
 > [!TIP]
