@@ -44,8 +44,7 @@ Process Components ใน Linux
 # :books: Table of contents
 
 - <a href="059 l Process Management/README.md">Process Management</a>
-- [Text styles](#text-styles)
-- [Syntax Highlighting](#syntax-highlighting)
+- <a href="059 l Process Management/#test">Process Management</a>
 	* [Inline code](#inline-code)
 	* [Code block](#code-block)
 - [Alignments](#alignments)
