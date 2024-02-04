@@ -11,7 +11,7 @@
     </p>
 </p>
 <p align="center">
-  <a href="#about-the-project">About The Project</a> •
+  <a href="#Computer-Organization-and-Operating-System-assignment">About The Project</a> •
   <a href="#usage">Overview</a> •
   <a href="#examples">Introduction</a> •
   <a href="#best-practice">Tables</a> •
