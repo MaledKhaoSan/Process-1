@@ -67,34 +67,34 @@ Process Components ใน Linux
 # :briefcase: Contributors
 > [!TIP]
 > รายชื่อสมาชิกและหน้าที่รับผิดชอบ
-
-<p align="center">
-<table width="100%" gap="30px">
-    <tr gap="30px">
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
-    </tr>
-    <tr>
-      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
-      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
-      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
-    </tr>
-</table>
-<br>
-<table width="100%">
-    <tr>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
-    </tr>
-    <tr>
-      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
-      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
-      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
-    </tr>
-</table>
-</p>
+>
+><p align="center">
+><table width="100%" gap="30px">
+>    <tr gap="30px">
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+>    </tr>
+>    <tr>
+>      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+>      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+>      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+>    </tr>
+></table>
+><br>
+><table width="100%">
+>    <tr>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+>    </tr>
+>    <tr>
+>      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+>      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+>      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+>    </tr>
+></table>
+></p>
 
 ---
 
