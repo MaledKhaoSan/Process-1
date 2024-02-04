@@ -13,9 +13,9 @@
 <p align="center">
   <a href="#about">About The Project</a> •
   <a href="#overview">Overview</a> •
-  <a href="#examples">Introduction</a> •
-  <a href="#best-practice">Tables</a> •
-  <a href="#credits">Contributors</a> •
+  <a href="#introduction">Introduction</a> •
+  <a href="#table">Tables</a> •
+  <a href="#contributors">Contributors</a> •
   <a href="#source">Source</a>
 </p>  
 
@@ -33,6 +33,7 @@
 
 ---
 
+<a id="introduction"></a>
 # :round_pushpin: Introduction: Process
 &emsp;&emsp;Process Components ใน Linux
 คือส่วนหนึ่งของระบบปฏิบัติการที่จัดการกับการทำงานของกระบวนการ (Processes) ในระบบ ซึ่งรวมถึงการจัดการกระบวนการเริ่มต้น (Boot Process), การจัดการกระบวนการทั่วไป (Process Management), การจัดการบริการ (Service Management), และตัวตั้งเวลางาน (Task Scheduler) ที่มีบทบาทสำคัญในการทำงานของระบบปฏิบัติการ Linux.
