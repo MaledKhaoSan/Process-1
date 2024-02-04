@@ -53,22 +53,29 @@ Process Components ใน Linux
 <p align="center">
 <table width="100%">
     <tr>
-      <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
-      <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
-      <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
-      <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/holder.png?raw=true" alt="Image 4" width="100%"/></td>
-      <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/wire.png?raw=true" alt="Image 5" width="100%"/></td>
-      <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/cap.png?raw=true" alt="Image 6" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
     </tr>
     <tr>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+    </tr>
+</table>
+<br>
+<table width="100%">
+    <tr>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
+    </tr>
+    <tr>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
     </tr>
-  </table>
+</table>
 </p>
 
 
