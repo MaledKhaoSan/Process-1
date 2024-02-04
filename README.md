@@ -18,7 +18,6 @@
   <a href="#contributors">Contributors</a> •
   <a href="#source">Source</a>
 </p>  
-![](https://komarev.com/ghpvc/?username=MaledKhaoSan&label=ChatGPT)
 
 ---
 
