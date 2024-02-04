@@ -12,8 +12,6 @@
 </p>
 <p align="center">
   <a href="#about">About The Project</a> •
-  <a href="#overview">Overview</a> •
-  <a href="#introduction">Introduction</a> •
   <a href="#table">Tables</a> •
   <a href="#contributors">Contributors</a> •
   <a href="#source">Source</a>
