@@ -98,8 +98,8 @@ Process Components ใน Linux
 
 ---
 
-> <a id="source"></a>
-> # :card_index_dividers: Source
+<a id="source"></a>
+# :card_index_dividers: Source
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 > - Book
