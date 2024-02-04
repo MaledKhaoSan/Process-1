@@ -50,11 +50,52 @@ Process Components ใน Linux
 
 <a id="contributors"></a>
 ## :briefcase: Contributors
-| Image 1 | Image 2 | Image 3 | Image 4 | Image 5 | Image 6 |
-|---------|---------|---------|---------|---------|---------|
-| ![Alt text 1](image_url_1) | ![Alt text 2](image_url_2) | ![Alt text 3](image_url_3) | ![Alt text 4](image_url_4) | ![Alt text 5](image_url_5) | ![Alt text 6](image_url_6) |
-|:------:|:------:|:------:|:------:|:------:|:------:|
-| 65070059<br>นายณฏฐพล สวัสดิ์มูล<br>หน้าที่ | 65070059<br>นายณฏฐพล สวัสดิ์มูล<br>หน้าที่ | 65070059<br>นายณฏฐพล สวัสดิ์มูล<br>หน้าที่ | 65070059<br>นายณฏฐพล สวัสดิ์มูล<br>หน้าที่ | 65070059<br>นายณฏฐพล สวัสดิ์มูล<br>หน้าที่ | 65070059<br>นายณฏฐพล สวัสดิ์มูล<br>หน้าที่ |
+<p align="center">
+<!--   <table width="100%">
+    <tr>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
+    </tr>
+    <tr>
+      <td align="center">buzzer</td>
+      <td align="center">ultrasonic sensors</td>
+      <td align="center">arduino uno</td>
+    </tr>
+  </table>
+  <br>
+  <table width="100%">
+    <tr>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/holder.png?raw=true" alt="Image 4" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/wire.png?raw=true" alt="Image 5" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/cap.png?raw=true" alt="Image 6" width="100%"/></td>
+    </tr>
+    <tr>
+      <td align="center">battery holder</td>
+      <td align="center">jumper wire</td>
+      <td align="center">cap</td>
+    </tr>
+  </table> -->
+
+<table width="100%">
+    <tr>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/holder.png?raw=true" alt="Image 4" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/wire.png?raw=true" alt="Image 5" width="100%"/></td>
+      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/cap.png?raw=true" alt="Image 6" width="100%"/></td>
+    </tr>
+    <tr>
+      <td align="center">buzzer</td>
+      <td align="center">ultrasonic sensors</td>
+      <td align="center">arduino uno</td>
+      <td align="center">buzzer</td>
+      <td align="center">ultrasonic sensors</td>
+      <td align="center">arduino uno</td>
+    </tr>
+  </table>
+</p>
 
 
 
