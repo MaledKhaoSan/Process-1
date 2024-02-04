@@ -48,14 +48,16 @@ Process Components ใน Linux
 
 5. Stack Status: ข้อมูลที่ใช้ในการจัดการหน่วยความจำสำหรับการเรียกฟังก์ชัน.
 
+---
+
 <a id="contributors"></a>
 ## :briefcase: Contributors
 <p align="center">
 <table width="100%">
     <tr>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
     </tr>
     <tr>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
@@ -66,9 +68,9 @@ Process Components ใน Linux
 <br>
 <table width="100%">
     <tr>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
     </tr>
     <tr>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
