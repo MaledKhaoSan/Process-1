@@ -51,32 +51,6 @@ Process Components ใน Linux
 <a id="contributors"></a>
 ## :briefcase: Contributors
 <p align="center">
-<!--   <table width="100%">
-    <tr>
-      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
-      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/ultrasonic.png?raw=true" alt="Image 2" width="100%"/></td>
-      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/uno.png?raw=true" alt="Image 3" width="100%"/></td>
-    </tr>
-    <tr>
-      <td align="center">buzzer</td>
-      <td align="center">ultrasonic sensors</td>
-      <td align="center">arduino uno</td>
-    </tr>
-  </table>
-  <br>
-  <table width="100%">
-    <tr>
-      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/holder.png?raw=true" alt="Image 4" width="100%"/></td>
-      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/wire.png?raw=true" alt="Image 5" width="100%"/></td>
-      <td width="33.33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/cap.png?raw=true" alt="Image 6" width="100%"/></td>
-    </tr>
-    <tr>
-      <td align="center">battery holder</td>
-      <td align="center">jumper wire</td>
-      <td align="center">cap</td>
-    </tr>
-  </table> -->
-
 <table width="100%">
     <tr>
       <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" alt="Image 1" width="100%"/></td>
@@ -87,12 +61,12 @@ Process Components ใน Linux
       <td width="16.6666667%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/cap.png?raw=true" alt="Image 6" width="100%"/></td>
     </tr>
     <tr>
-      <td align="center">buzzer</td>
-      <td align="center">ultrasonic sensors</td>
-      <td align="center">arduino uno</td>
-      <td align="center">buzzer</td>
-      <td align="center">ultrasonic sensors</td>
-      <td align="center">arduino uno</td>
+      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
+      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
     </tr>
   </table>
 </p>
