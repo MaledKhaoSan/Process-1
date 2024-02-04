@@ -1,7 +1,7 @@
 <a id="text"></a>
 # :round_pushpin: Process Management
 Process Management ในระบบ Linux มีหน้าที่จัดการกระบวนการสร้าง ควบคุม และยุติการทำงานทั้งหมดในระบบ โดยหลักการของ Process Management ประกอบไปด้วย 3 หลักนี้
-
+<br>
 > [!TIP]
 > ด้วยหลักการของ Process Management ทั้งสามนี้ช่วยให้ระบบปฏิบัติการสามารถจัดการกระบวนการในระบบได้อย่างถูกต้อง
 > 1. Process Creation (การเริ่มต้นกระบวนการ):
