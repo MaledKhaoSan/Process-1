@@ -48,6 +48,16 @@ Process Components ใน Linux
 
 5. Stack Status: ข้อมูลที่ใช้ในการจัดการหน่วยความจำสำหรับการเรียกฟังก์ชัน.
 
+<a id="contributors"></a>
+## :briefcase: Contributors
+> [!NOTE]
+> นาย 650700
+> นาย 650700
+> นาย 650700
+> นาย 650700
+> นาย 650700
+
+
 <a id="source"></a>
 ## Source :pushpin:
 FastColabCopy is a Python script for parallel (multi-threading) copying of files between two locations. Currently developed for Google-Drive to Google-Drive transfers using Google-Colab. This script frequently achieves 10-50x speed improvements when copying numerous small files.
