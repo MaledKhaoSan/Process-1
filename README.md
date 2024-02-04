@@ -51,11 +51,11 @@ Process Components ใน Linux
 <a id="contributors"></a>
 ## :briefcase: Contributors
 > [!NOTE]
-> นาย 650700
-> นาย 650700
-> นาย 650700
-> นาย 650700
-> นาย 650700
+> นาย 650700<br>
+> นาย 650700<br>
+> นาย 650700<br>
+> นาย 650700<br>
+> นาย 650700<br>
 
 
 <a id="source"></a>
