@@ -54,8 +54,8 @@ Process Components ใน Linux
 ## :briefcase: Contributors
 <p align="center">
 <table width="100%" gap="30px">
-    <tr>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
+    <tr gap="30px">
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
       <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
       <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
     </tr>
@@ -68,9 +68,9 @@ Process Components ใน Linux
 <br>
 <table width="100%">
     <tr>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
-      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
+      <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
     </tr>
     <tr>
       <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
