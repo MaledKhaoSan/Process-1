@@ -9,7 +9,7 @@ Process Management ในระบบ Linux มีหน้าที่จัด
   - กำหนดเวลา CPU ให้กับ process
   - จัดลำดับความสำคัญของ process
   - ควบคุมการเข้าถึงทรัพยากรของ process
-    Process Termination (การหยุดกระบวนการ):
+3. Process Termination (การหยุดกระบวนการ):
   - ยุติ process
   - เก็บกวาดทรัพยากรที่ process ใช้
 
