@@ -71,12 +71,10 @@ Process Components ใน Linux
 </table>
 </p>
 
-
-
-
+---
 
 <a id="source"></a>
-## Source :pushpin:
+# :card_index_dividers: Source
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 > - Book
