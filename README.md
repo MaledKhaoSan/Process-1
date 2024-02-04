@@ -65,6 +65,8 @@ Process Components ใน Linux
 
 <a id="contributors"></a>
 # :briefcase: Contributors
+> [!TIP]
+> รายชื่อสมาชิกและหน้าที่รับผิดชอบ
 
 <p align="center">
 <table width="100%" gap="30px">
@@ -111,8 +113,6 @@ Process Components ใน Linux
 >    - Linux File System - javatpoint. https://www.javatpoint.com/linux-file-system.
 
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
 
 > [!IMPORTANT]
 > Key information users need to know to achieve their goal.
