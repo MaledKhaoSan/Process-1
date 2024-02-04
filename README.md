@@ -53,7 +53,7 @@ Process Components ใน Linux
 <a id="contributors"></a>
 ## :briefcase: Contributors
 <p align="center">
-<table width="100%">
+<table width="100%" gap="30px">
     <tr>
       <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" padding="10%" width="100%"/></td>
       <td width="33%"><img src="https://github.com/MaledKhaoSan/PhyCom/blob/main/source/buzzer.png?raw=true" width="100%"/></td>
