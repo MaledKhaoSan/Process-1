@@ -18,6 +18,7 @@
   <a href="#contributors">Contributors</a> •
   <a href="#source">Source</a>
 </p>  
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=MaledKhaoSan.Project-Comor&left_text=Visitors)
 
 ---
 
