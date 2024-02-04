@@ -80,8 +80,8 @@ Process Components ใน Linux
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 > - Book
->  - Paul Cobbau, Linux Storage - https://linux-training.be/linuxsto.pdf
->  - Richard Petersen, The Complete Reference Linux 6th Edition - https://doc.lagout.org/operating%20system%20/linux/Linux%20-%20The%20Complete%20Reference.pdf
+>    - Paul Cobbau, Linux Storage - https://linux-training.be/linuxsto.pdf
+>    - Richard Petersen, The Complete Reference Linux 6th Edition - https://doc.lagout.org/operating%20system%20/linux/Linux%20-%20The%20Complete%20Reference.pdf
 
 
 - Book
