@@ -35,7 +35,6 @@ Process Management ใน Linux คือกระบวนการควบค
    คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด.
     ```bash
     $ ls
-    Desktop  Documents  Downloads  Music  Pictures  Videos
     ```
 
     ---
