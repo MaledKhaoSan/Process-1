@@ -39,7 +39,7 @@ Process Management ใน Linux คือกระบวนการควบค
 - Zombie:<br>
 เข้าสู่สถานะ "Zombie" เมื่อทำงานเสร็จสิ้นแต่ <a href="">Parent Process</a> ยังไม่สิ้นสุดการทำงาน. ณ ขณะนี้, กระบวนการยังคงอยู่ในสถานะทำงาน แต่ไม่ทำงาน.
 <p align="center">
-    <img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/process_state.jpeg?raw=true" alt="Logo" width="300" height="auto">
+    <img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/process_state.jpeg?raw=true" alt="Logo" width="auto" height="auto">
 </p>
 
 
