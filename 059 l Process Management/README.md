@@ -33,7 +33,7 @@ Process Management ใน Linux คือกระบวนการควบค
    :computer: ตัวอย่างเหตุการณ์เมื่อผู้ใช้พิมพ์คำสั่งบน Command Line
    #### `ls` - แสดงรายการ file และ directory
    คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด.
-    ```c++
+    ```bash
     $ ls
     Desktop  Documents  Downloads  Music  Pictures  Videos
     ```
