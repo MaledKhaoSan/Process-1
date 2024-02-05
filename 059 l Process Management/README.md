@@ -27,39 +27,38 @@ Process Management ใน Linux คือกระบวนการควบค
     - ผู้ใช้พิมพ์คำสั่งบน command line เช่น `ls`, `cd`, `mkdir`, `grep`
     - ผู้ใช้รันโปรแกรมผ่าน graphical user interface (GUI).
 
+        ### :computer: ตัวอย่างเหตุการณ์เมื่อผู้ใช้พิมพ์คำสั่งบน Command Line
+        #### `ls` - แสดงรายการ file และ directory
+        > คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด
+        > ```ruby
+        > $ ls
+        > Desktop  Documents  Downloads  Music  Pictures  Videos
+        > ```
+
+        #### `cd` - เปลี่ยน directory
+        > คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
+        > ```ruby
+        > $ cd Documents
+        > ```
+
+        #### `mkdir` - สร้าง directory
+        > คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
+        > ```ruby
+        > $ mkdir NewDirectory
+        > ```
+
+        #### `grep` - ค้นหาข้อความในไฟล์
+        > คำสั่ง `grep` จะค้นหาข้อความที่ระบุในเนื้อหาของไฟล์ (เช่น "รูปแบบ" ใน "ชื่อไฟล์.txt").
+        > ```ruby
+        > $ grep "รูปแบบ" ชื่อไฟล์.txt
+        > ```
+
+---
+
 2. การเริ่มทำงานโดยระบบปฏิบัติการ:
     - ระบบปฏิบัติการรัน scripts ที่ตั้งเวลาไว้
     - ระบบปฏิบัติการเริ่มโปรแกรม daemon ที่ทำงานพื้นหลัง
     - ระบบปฏิบัติการตอบสนองต่อ events ต่างๆ เช่น การกดปุ่มบน keyboard
-
-### :computer: ตัวอย่างเหตุการณ์เมื่อผู้ใช้พิมพ์คำสั่งบน Command Line
-#### `ls` - แสดงรายการ file และ directory
-> คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด
-> ```ruby
-> $ ls
-> Desktop  Documents  Downloads  Music  Pictures  Videos
-> ```
-
-#### `cd` - เปลี่ยน directory
-> คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
-> ```ruby
-> $ cd Documents
-> ```
-
-#### `mkdir` - สร้าง directory
-> คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
-> ```ruby
-> $ mkdir NewDirectory
-> ```
-
-#### `grep` - ค้นหาข้อความในไฟล์
-> คำสั่ง `grep` จะค้นหาข้อความที่ระบุในเนื้อหาของไฟล์ (เช่น "รูปแบบ" ใน "ชื่อไฟล์.txt").
-> ```ruby
-> $ grep "รูปแบบ" ชื่อไฟล์.txt
-> ```
-
----
-
 
 ## :computer: ตัวอย่างการใช้งานคำสั่งบน Command Line
 
