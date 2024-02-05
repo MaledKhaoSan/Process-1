@@ -38,19 +38,20 @@ Process Management ใน Linux คือกระบวนการควบค
 > Desktop  Documents  Downloads  Music  Pictures  Videos
 > ```
 
-> #### `cd` - เปลี่ยน directory
+#### `cd` - เปลี่ยน directory
 > คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
 > ```ruby
 > $ cd Documents
 > ```
 
-> #### `mkdir` - สร้าง directory
+#### `mkdir` - สร้าง directory
 > คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
 > ```ruby
 > $ mkdir NewDirectory
 > ```
 
-> #### `grep` - ค้นหาข้อความในไฟล์
+#### `grep` - ค้นหาข้อความในไฟล์
+> คำสั่ง `grep` จะค้นหาข้อความที่ระบุในเนื้อหาของไฟล์ (เช่น "รูปแบบ" ใน "ชื่อไฟล์.txt").
 > ```ruby
 > $ grep "รูปแบบ" ชื่อไฟล์.txt
 > ```
@@ -66,7 +67,7 @@ Process Management ใน Linux คือกระบวนการควบค
 ## :computer: ตัวอย่างการใช้งานคำสั่งบน Command Line
 
 
-คำสั่ง `grep` จะค้นหาข้อความที่ระบุในเนื้อหาของไฟล์ (เช่น "รูปแบบ" ใน "ชื่อไฟล์.txt").
+
 
 การใช้คำสั่งบน Command Line นี้มีวัตถุประสงค์ในการนำเสนอการจัดการไฟล์และไดเรกทอรีพื้นฐานในระบบ Linux ที่ให้ความสามารถในการนำทางและการจัดการไฟล์.-
 
