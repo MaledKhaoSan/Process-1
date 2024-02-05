@@ -32,21 +32,20 @@ Process Management ใน Linux คือกระบวนการควบค
 
    :computer: ตัวอย่างเหตุการณ์เมื่อผู้ใช้พิมพ์คำสั่งบน Command Line
    #### `ls` - แสดงรายการ file และ directory
-   คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด.
-    ```ruby
+   คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด
+    ```bash
     $ ls
     Desktop  Documents  Downloads  Music  Pictures  Videos
     ```
 
-    ---
+    
 
    #### `cd` - เปลี่ยน directory
    คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
     ```ruby
     $ cd Documents
     ```
-    
-   ---
+
 
    #### `mkdir` - สร้าง directory
    คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
@@ -54,7 +53,6 @@ Process Management ใน Linux คือกระบวนการควบค
     $ mkdir NewDirectory
     ```
 
-    ---
 
    #### `grep` - ค้นหาข้อความในไฟล์
     ```ruby
