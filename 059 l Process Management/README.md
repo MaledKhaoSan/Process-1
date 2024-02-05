@@ -26,17 +26,17 @@ Process Management ใน Linux คือกระบวนการควบค
 เป็นขั้นตอนที่สำคัญใน Process Management ในระบบ Linux โดยมีบทบาทหรือหน้าที่ที่สำคัญ ดังนี้:
 **หน้าที่หลัก:** การสร้างโปรแกรมใหม่ขึ้นมาเพื่อทำงานตามชุดคำสั่ง.
 **กรณีการใช้งาน:**
-1.1 ผู้ใช้รันโปรแกรม:
+    1.1 ผู้ใช้รันโปรแกรม:
     - ผู้ใช้พิมพ์คำสั่งบน command line เช่น `ls`, `cd`, `mkdir`, `grep`
     - ผู้ใช้รันโปรแกรมผ่าน graphical user interface (GUI).
 
-### :computer: ตัวอย่างเหตุการณ์เมื่อผู้ใช้พิมพ์คำสั่งบน Command Line
-#### `ls` - แสดงรายการ file และ directory
-> คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด
-> ```ruby
-> $ ls
-> Desktop  Documents  Downloads  Music  Pictures  Videos
-> ```
+    ### :computer: ตัวอย่างเหตุการณ์เมื่อผู้ใช้พิมพ์คำสั่งบน Command Line
+    #### `ls` - แสดงรายการ file และ directory
+    > คำสั่ง `ls` จะแสดงเนื้อหาใน directory ปัจจุบัน ระบุรายการ file และ directory ทั้งหมด
+    > ```ruby
+    > $ ls
+    > Desktop  Documents  Downloads  Music  Pictures  Videos
+    > ```
 
     
 
