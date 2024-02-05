@@ -38,24 +38,22 @@ Process Management ใน Linux คือกระบวนการควบค
 > Desktop  Documents  Downloads  Music  Pictures  Videos
 > ```
 
-> ### `cd` - เปลี่ยน directory
-> #### คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
+> #### `cd` - เปลี่ยน directory
+> คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
 > ```ruby
 > $ cd Documents
 > ```
 
+> #### `mkdir` - สร้าง directory
+> คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
+> ```ruby
+> $ mkdir NewDirectory
+> ```
 
-#### `mkdir` - สร้าง directory
-คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
-```ruby
-$ mkdir NewDirectory
-```
-
-
-#### `grep` - ค้นหาข้อความในไฟล์
-```ruby
-$ grep "รูปแบบ" ชื่อไฟล์.txt
-```
+> #### `grep` - ค้นหาข้อความในไฟล์
+> ```ruby
+> $ grep "รูปแบบ" ชื่อไฟล์.txt
+> ```
 
     ---
 
