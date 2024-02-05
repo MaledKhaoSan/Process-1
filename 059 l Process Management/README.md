@@ -22,11 +22,11 @@ Process Management ใน Linux คือกระบวนการควบค
 
 <a id="process-creation"></a>
 # :bulb: Process Creation
-- บทบาทหรือหน้าที่บน Linux
+บทบาทหรือหน้าที่บน Linux
 เป็นขั้นตอนที่สำคัญใน Process Management ในระบบ Linux โดยมีบทบาทหรือหน้าที่ที่สำคัญ ดังนี้:
 **หน้าที่หลัก:** การสร้างโปรแกรมใหม่ขึ้นมาเพื่อทำงานตามชุดคำสั่ง.
-**กรณีการใช้งาน:**
-- ผู้ใช้รันโปรแกรม:
+- **กรณีการใช้งาน:**
+1. ผู้ใช้รันโปรแกรม:
     - ผู้ใช้พิมพ์คำสั่งบน command line เช่น `ls`, `cd`, `mkdir`, `grep`
     - ผู้ใช้รันโปรแกรมผ่าน graphical user interface (GUI).
 
@@ -38,13 +38,11 @@ Process Management ใน Linux คือกระบวนการควบค
 > Desktop  Documents  Downloads  Music  Pictures  Videos
 > ```
 
-    
-
-#### `cd` - เปลี่ยน directory
-คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
-```ruby
-$ cd Documents
-```
+> ### `cd` - เปลี่ยน directory
+> #### คำสั่ง `cd` จะเปลี่ยน directory ปัจจุบันเป็น "Documents."
+> ```ruby
+> $ cd Documents
+> ```
 
 
 #### `mkdir` - สร้าง directory
