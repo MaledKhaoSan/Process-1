@@ -158,45 +158,42 @@ Process Control (การควบคุมการทำงาน) เป็�
 > - โปรแกรม background อาจใช้ทรัพยากรระบบมากเกินไป
 
 ---
-<br><br>
-| คำสั่ง           | ประเภท                             | ตัวอย่าง           |
-|:----------------:|:--------------------------------:|:----------------:|
-| `ps`             | แสดงรายการ process ทั้งหมด      | `ps aux`         |
-| `kill`           | ยุติการทำงานของ process           | `kill -9 1234`   |
-| `renice`         | เปลี่ยนระดับความสำคัญของ process  | `renice -n 10 1234` |
-| job controls    | ควบคุมการทำงานของ process ในรูปแบบ job | `bg %1, fg %2`   |
-
-<br><br>
-
 
 <div align="center">Some test
       <table>
       <thead>
       <tr>
-      <th style="text-align:left">Tables</th>
-      <th style="text-align:center">Are</th>
-      <th style="text-align:right">Cool</th>
+      <th style="text-align:left">คำสั่ง</th>
+      <th style="text-align:center">ประเภท</th>
+      <th style="text-align:right">ตัวอย่าง</th>
       </tr>
       </thead>
       <tbody>
       <tr>
-      <td style="text-align:left">col 3 is</td>
-      <td style="text-align:center">right-aligned</td>
-      <td style="text-align:right">$1600</td>
+      <td style="text-align:left">ps</td>
+      <td style="text-align:center">แสดงรายการ process ทั้งหมด</td>
+      <td style="text-align:right">ps aux</td>
       </tr>
       <tr>
-      <td style="text-align:left">col 2 is</td>
-      <td style="text-align:center">centered</td>
-      <td style="text-align:right">$12</td>
+      <td style="text-align:left">kill</td>
+      <td style="text-align:center">ยุติการทำงานของ process</td>
+      <td style="text-align:right">kill -9 1234</td>
       </tr>
       <tr>
-      <td style="text-align:left">zebra stripes</td>
-      <td style="text-align:center">are neat</td>
-      <td style="text-align:right">$1</td>
+      <td style="text-align:left">renice</td>
+      <td style="text-align:center">เปลี่ยนระดับความสำคัญของ process</td>
+      <td style="text-align:right">renice -n 10 1234</td>
+      </tr>
+      <tr>
+      <td style="text-align:left">job controls</td>
+      <td style="text-align:center">ควบคุมการทำงานของ process ในรูปแบบ job</td>
+      <td style="text-align:right">bg %1, fg %2</td>
       </tr>
       </tbody>
       </table>
 </div>
+
+
 ---
 
 
