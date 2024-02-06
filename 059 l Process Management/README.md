@@ -169,15 +169,29 @@ Process Control (การควบคุมการทำงาน) เป็�
 
 
 <table>
+      <tr>
+      <td width="33%"">
+      คำสั่ง
+      </td>
+      <td width="33%">
+      ประเภท
+      </td>
+      <td width="33%">
+      ตัวอย่าง
+      </td>
+      </tr>
+</table>
+
+<table>
 <tr>
 <td width="33%"">
-คำสั่ง
+The quick brown fox jumps over the lazy dog.
 </td>
 <td width="33%">
-ประเภท
+The quick brown fox jumps over the lazy dog.
 </td>
 <td width="33%">
-ตัวอย่าง
+The quick brown fox jumps over the lazy dog.
 </td>
 </tr>
 </table>
