@@ -159,7 +159,8 @@ Process Control (การควบคุมการทำงาน) เป็�
 
 ---
 
-<div align="center">Some test
+<div align="center">
+      <h1>Example Code</h1>
       <table>
       <thead>
       <tr>
