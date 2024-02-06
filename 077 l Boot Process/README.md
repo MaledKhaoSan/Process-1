@@ -125,8 +125,6 @@ LILO: ผู้ใช้สามารถแก้ไขไฟล์ /etc/lilo.
 <a id="text"></a>
 # :round_pushpin: Kernel stage
 <br><br>
-
-4. Kernel stage:
 Kernel stage เป็นหนึ่งในขั้นตอนหลักของการบูตระบบปฏิบัติการ Linux มันเป็นช่วงเวลาหลังจาก POST (Power-On Self Test) เสร็จสิ้น และก่อนที่จะเริ่ม init system
 หน้าที่หลักของ Kernel stage มีดังนี้:
 
@@ -227,8 +225,6 @@ klog | grep -i "kernel"
 <a id="text"></a>
 # :round_pushpin: Init stage
 <br><br>
-
-6. Init stage:
 Init stage คือ กระบวนการเริ่มต้นระบบปฏิบัติการLinux  ทำหน้าที่ควบคุมกระบวนการเริ่มต้นระบบปฏิบัติการ ประกอบด้วยชุดของสคริปต์และบริการที่รันตามลำดับเพื่อเตรียมระบบให้พร้อมใช้งานสำหรับผู้ใช้  init stage แบ่งออกเป็น 7 ระดับ ดังนี้:
 
 1. S - Single-user mode:
