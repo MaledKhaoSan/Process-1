@@ -171,24 +171,24 @@ Process Control (การควบคุมการทำงาน) เป็�
       </thead>
       <tbody>
       <tr>
-      <td style="text-align:left">ps</td>
+      <td style="text-align:left">`ps`</td>
       <td style="text-align:center">แสดงรายการ process ทั้งหมด</td>
-      <td style="text-align:right">ps aux</td>
+      <td style="text-align:right">`ps aux`</td>
       </tr>
       <tr>
-      <td style="text-align:left">kill</td>
+      <td style="text-align:left">`kill`</td>
       <td style="text-align:center">ยุติการทำงานของ process</td>
-      <td style="text-align:right">kill -9 1234</td>
+      <td style="text-align:right">`kill -9 1234`</td>
       </tr>
       <tr>
-      <td style="text-align:left">renice</td>
+      <td style="text-align:left">`renice`</td>
       <td style="text-align:center">เปลี่ยนระดับความสำคัญของ process</td>
-      <td style="text-align:right">renice -n 10 1234</td>
+      <td style="text-align:right">`renice -n 10 1234`</td>
       </tr>
       <tr>
       <td style="text-align:left">job controls</td>
       <td style="text-align:center">ควบคุมการทำงานของ process ในรูปแบบ job</td>
-      <td style="text-align:right">bg %1, fg %2</td>
+      <td style="text-align:right">`bg %1, fg %2`</td>
       </tr>
       </tbody>
       </table>
