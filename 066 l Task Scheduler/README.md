@@ -2,8 +2,8 @@
 **Task Scheduler** คือตัวที่ทำหน้าที่ คอยควบคุม **กำหนดการทำงานของ task** ต่างๆ เป็นตัวกำหนดว่า task ไหนจะทำงาน ทำตอนไหน ทำนานแค่ไหน โดยการแบ่งทรัพยากรที่มีจำกัดมาแบ่งปันแต่ละ task ให้ทำงานพร้อมๆกันได้
 
 ประกอบด้วยเครื่องมือ 2 อย่าง คือ
-- **cron** : list ของ คำสั่งที่ exacute task ตามเวลาที่กำหนดล่วงหน้า
-- **at** : 
+- [**cron**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/cron) : list ของ คำสั่งที่ exacute task ตามเวลาที่กำหนดล่วงหน้า
+- [**at**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/at) : 
 
 
 ## reference
