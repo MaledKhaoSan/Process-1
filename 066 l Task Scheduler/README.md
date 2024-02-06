@@ -5,6 +5,7 @@
 - **cron** : list ของ คำสั่งที่ exacute task ตามเวลาที่กำหนดล่วงหน้า
 - **at** : 
 
+
 ## reference
 - https://linuxhint.com/schedule_linux_task/
 - https://ebookreading.net/view/book/How+Linux+Works++2nd+Edition-EB9781457185519_12.html
