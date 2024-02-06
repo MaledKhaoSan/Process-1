@@ -84,12 +84,12 @@ Process Components ใน Linux
 >    <tr>
 >      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
 >      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
->      <td width="33%"><img src="[https://cdn-icons-png.flaticon.com/512/1077/1077114.png](https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/422798070_1411938229709777_945998255969662585_n.jpg)" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/422798070_1411938229709777_945998255969662585_n.jpg" width="100%"/></td>
 >    </tr>
 >    <tr>
 >      <td align="center">65070077<br>นางสาวณัฐนันท์  งามสมุทร<br>Boots Process</td>
 >      <td align="center">65070087<br>นายดราคริสต์  ปล้องไม้<br>duty</td>
->      <td align="center">65070090<br>นายธนกฤต  สิงห์สังข์<br>duty</td>
+>      <td align="center">65070090<br>นายธนกฤต  สิงห์สังข์<br>System Time</td>
 >    </tr>
 ></table>
 ></p>
