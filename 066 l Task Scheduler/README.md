@@ -1,10 +1,11 @@
 # Task Scheduler
 **Task Scheduler** คือตัวที่ทำหน้าที่ คอยควบคุม **กำหนดการทำงานของ task** ต่างๆ เป็นตัวกำหนดว่า task ไหนจะทำงาน ทำตอนไหน ทำนานแค่ไหน โดยการแบ่งทรัพยากรที่มีจำกัดมาแบ่งปันแต่ละ task ให้ทำงานพร้อมๆกันได้
 
-ประกอบด้วยเครื่องมือ **2** อย่าง คือ
+ประกอบด้วยเครื่องมือ **4** อย่าง คือ
 - [**cron**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/cron) : ทำงานเป็นรอบๆ ทำงานประจำ
 - [**at**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/at) : ทำงานเพียงครั้งเดียว
 - [**anacron**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/anacron) : ทำงานเป็นระยะๆ
+- **Systemd Timer Units**
 
 
 ## reference
