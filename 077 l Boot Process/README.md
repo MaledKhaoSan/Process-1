@@ -8,7 +8,7 @@ Introduction
 <br><br>
  Booting คือกระบวนการที่นำระบบจากสถานะปิดไปสู่ระบบปฏิบัติการที่กำลังทำงาน โดยขั้นตอนทั้งหมดแบ่งออกเป็น 4 ขั้นตอนหลัก มีดังนี้:
  <br><br>
-<img src="[https://static.thegeekstuff.com/wp-content/uploads/2011/02/linux-boot-process.png](https://www.baeldung.com/wp-content/uploads/sites/2/2022/10/boot-process-662x1024.png)"  width="100" height="100">
+<img src="https://www.baeldung.com/wp-content/uploads/sites/2/2022/10/boot-process-662x1024.png" >
 
 <br><br>
 - Firmware stage
