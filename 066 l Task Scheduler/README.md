@@ -14,3 +14,5 @@
 - https://betterprogramming.pub/how-to-schedule-cron-tasks-in-linux-fc605bf4911e
 - https://support.thaidata.cloud/kb/setting-cronjob-crontab-linux/
 - https://ioflood.com/blog/at-linux-command/
+- https://th.linux-console.net/?p=697
+- https://www.geeksforgeeks.org/anacron-command-in-linux-with-examples/
