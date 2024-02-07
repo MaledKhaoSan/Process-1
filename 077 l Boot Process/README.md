@@ -6,7 +6,7 @@
 ### Introduction :
  Booting คือกระบวนการที่นำระบบจากสถานะปิดไปสู่ระบบปฏิบัติการที่กำลังทำงาน โดยขั้นตอนทั้งหมดแบ่งออกเป็น 4 ขั้นตอนหลัก มีดังนี้:
  
-  <img src="[[https://www.baeldung.com/wp-content/uploads/sites/2/2022/10/boot-process-662x1024.png](https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/Screenshot%202567-02-07%20at%2020.39.34.png?raw=true)](https://raw.githubusercontent.com/MaledKhaoSan/Project-Comor/main/assets/boot%20process.png)" >
+  <img src="[[[https://www.baeldung.com/wp-content/uploads/sites/2/2022/10/boot-process-662x1024.png](https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/Screenshot%202567-02-07%20at%2020.39.34.png?raw=true)](https://raw.githubusercontent.com/MaledKhaoSan/Project-Comor/main/assets/boot%20process.png)](https://raw.githubusercontent.com/MaledKhaoSan/Project-Comor/main/assets/boot%20process.png)" >
 
 - Firmware stage
  
