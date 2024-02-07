@@ -408,17 +408,22 @@ Arguments:
 
 `shutdown -c`: ยกเลิก shutdown
 
-`shutdown -t 60 "System will shutdown in 60 seconds`": รอ 60 วินาทีก่อน shutdown
+`shutdown -t 60 "System will shutdown in 60 seconds"`: รอ 60 วินาทีก่อน shutdown
 
 3. systemctl:
 
 Options:
 
 -h: แสดง help
+
 -l: แสดงรายชื่อ services
+
 -i: แสดง information เกี่ยวกับ service
+
 -s: shutdown
+
 -r: reboot
+
 Arguments:
 
 <command>: คำสั่ง systemctl
@@ -438,3 +443,8 @@ systemctl -r: reboot
 การใช้คำสั่ง init กับ options หรือ arguments ที่ไม่ถูกต้องอาจทำให้เกิดผลลัพธ์ที่ไม่คาดคิด
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+#### `mkdir` - สร้าง directory
+        > คำสั่ง `mkdir` จะสร้าง directory ใหม่ชื่อ "NewDirectory."
+        > ```ruby
+        > $ mkdir NewDirectory
+        > ```
