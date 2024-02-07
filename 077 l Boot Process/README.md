@@ -5,9 +5,7 @@
 
 ### Introduction :
  Booting คือกระบวนการที่นำระบบจากสถานะปิดไปสู่ระบบปฏิบัติการที่กำลังทำงาน โดยขั้นตอนทั้งหมดแบ่งออกเป็น 4 ขั้นตอนหลัก มีดังนี้:
-
-<img src="https://www.baeldung.com/wp-content/uploads/sites/2/2022/10/boot-process-662x1024.png" >
-
+ 
 - Firmware stage
  
 - Bootloader stage
@@ -15,6 +13,8 @@
 - Kernel stage
   
 - Init stage
+  
+  <img src="https://www.baeldung.com/wp-content/uploads/sites/2/2022/10/boot-process-662x1024.png" >
 <br><br>
 <a id="text"></a>
 # :round_pushpin: Firmware stage
