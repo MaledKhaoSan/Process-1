@@ -255,3 +255,27 @@ exit 0
 ```
 	$ sudo update-rc.d -f <service-name> remove
 ```
+
+
+## อ้างอิง
+**LinkeDin**
+[https://www.linkedin.com/pulse/linux-run-levels-the-infosectribune]
+
+**LinuxJourney**
+[https://linuxjourney.com/lesson/sysv-overview]
+
+**FOSS4Change**
+https://www.youtube.com/watch?v=WPGbOzd0r9E
+https://th.linux-console.net/?p=2333
+
+**DigitalOcean.**
+https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#conclusion
+
+**rimuhosting**
+https://rimuhosting.com/knowledgebase/linux/managing-services
+
+**cherryservers**
+https://www.cherryservers.com/blog/an-ultimate-guide-of-how-to-manage-linux-systemd-services-with-systemctl-command
+
+**LINUX . COM**
+https://www.linux.com/training-tutorials/managing-services-linux-systemd/
