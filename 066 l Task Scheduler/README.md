@@ -4,6 +4,7 @@
 ประกอบด้วยเครื่องมือ **2** อย่าง คือ
 - [**cron**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/cron) : ทำงานเป็นรอบๆ ทำงานประจำ
 - [**at**](https://github.com/MaledKhaoSan/Project-Comor/tree/main/066%20l%20Task%20Scheduler/at) : ทำงานเพียงครั้งเดียว
+- **anacron**
 
 
 ## reference
