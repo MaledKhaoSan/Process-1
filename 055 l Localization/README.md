@@ -10,11 +10,8 @@
 With Python and pip installed, use pip to install the Localize CLI :
 
 #### `linux, OS X or Unix` 
-        > ```ruby
         > sudo pip install --ignore-installed localize
-        > ```
+        
 #### `To upgrade an existing Localize CLI installation, use the --upgrade option :` 
-        > ```ruby
         > pip install --upgrade localize
-        > ```
 
