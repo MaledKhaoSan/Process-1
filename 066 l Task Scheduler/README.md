@@ -12,3 +12,4 @@
 - https://www.dropbox.com/scl/fo/sv8iv9uqvwvsab4pmzf1h/h?dl=0&preview=L2v2_Chapter_07-JobScheduling.pdf&rlkey=awurdtyika6gx5y7vhip0bxwc
 - https://betterprogramming.pub/how-to-schedule-cron-tasks-in-linux-fc605bf4911e
 - https://support.thaidata.cloud/kb/setting-cronjob-crontab-linux/
+- https://ioflood.com/blog/at-linux-command/
