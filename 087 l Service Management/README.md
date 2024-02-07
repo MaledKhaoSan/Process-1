@@ -2,14 +2,29 @@
 **Service Management** ป็นกระบวนการที่คอยควบคุมและดูแลบริการต่าง ๆ ที่ทำงานบนระบบคอมพิวเตอร์หรือเซิร์ฟเวอร์ เพื่อให้ระบบทำงานได้สมบูรณ์และมีประสิทธิภาพสูงสุด
 
 ### มีบทบาทหน้าที่
-มีบทบาทสำคัญในการควบคุมและบริหารจัดการบริการต่าง ๆ ที่ทำงานในระบบ. บทบาทหลักของ System Service Management โดยที่
+ให้ผู้ดูแลระบบสามารถควบคุมและดูแลการทำงานของบริการต่าง ๆ บนระบบได้อย่างมีประสิทธิภาพ นอกจากนี้ยังช่วยให้ระบบทำงานได้เสถียรและมีประสิทธิภาพตามที่ตั้งค่าไว้
+นามสกุลของไฟล์ที่ใช้ในการจัดการบริการใน Linux มักจะเป็น `.service` และระบบที่ใช้มากที่สุดคือ systemd ซึ่งเป็นระบบ init และการจัดการบริการที่ได้รับการนำเข้ามามากที่สุดในหลายระบบ Linux บนเครื่องหลาย ๆ ประการ
+
+### การจัดการของ Service Management
+การจัดการ Service Management ในระบบปฏิบัติการ Linux มักใช้ระบบ init หรือ systemd เพื่อบริหารจัดการบริการ (services) ที่ทำงานในระบบปฏิบัติการนี้ โดยมีคำสั่งหลัก ๆ ดังนี้:
+**System V (init.d)**
+หลักการของ SysV คือการใช้ไฟล์สคริปต์ (scripts) ที่เรียกว่า init scripts หรือ init.d scripts เพื่อระบุการทำงานของแต่ละบริการที่ต้องการให้ระบบทำงาน. ไฟล์สคริปต์นี้จะถูกเก็บไว้ในไดเรกทอรี `/etc/init.d/`.
+**Systemd:**
+เป็นระบบ init และระบบจัดการบริการที่ถูกพัฒนาขึ้นเพื่อให้การบริหารจัดการระบบของ Linux เป็นไปอย่างมีประสิทธิภาพและเป็นระบบที่ทันสมัยมากขึ้น. โดยทั่วไป, systemd ถูกใช้แทนที่ระบบ init แบบเก่า เช่น System V (SysV) บนหลายระบบปฏิบัติการ Linux โดยเฉพาะ.
+
+###  ประเภทของ Service Management
+ในระบบปฏิบัติการ Linux มีหลายวิธี แต่วิธีที่ได้รับความนิยมมากที่สุดคือการใช้ระบบการจัดการบริการหรือ "**init system**" ซึ่งเป็นระบบที่ใช้เริ่มต้นและจัดการกระบวนการที่ทำงานในระบบปฏิบัติการ Linux หลายรุ่น ต่อไปนี้คือบรรทัดย่อของบริการหลายประเภทที่สามารถบริหารจัดการได้ใน Linux:
+- **System V (SysV):** เป็นระบบ init แบบเก่าที่ใช้สคริปต์ start, stop, restart เพื่อควบคุมบริการ. สคริปต์บริการอยู่ใน `/etc/init.d/` และมักจะมีรายชื่อเรียกว่า `service`.
+- **Upstart:** ใช้ในบางระบบเวอร์ชัน Linux เช่น Ubuntu 9.10 และเวอร์ชันก่อนหน้า. มีการใช้งานคล้าย SysV แต่มีการเพิ่มความสามารถในการจัดการกับการเริ่มต้นพร้อมกันของบริการ.
+- **systemd:** เป็นระบบ init ที่มีความสามารถมากและเป็นที่นิยมในหลายระบบ Linux ล่าสุด เช่น Ubuntu 15.04 และหลายเวอร์ชันขึ้นไป, Fedora, Debian 8 ขึ้นไป และอื่น ๆ. systemd ให้การจัดการบริการที่มีประสิทธิภาพมากขึ้นและมีการใช้งานที่เร็ว.
+- **OpenRC:** ใช้ใน Gentoo Linux และบางระบบ Linux อื่น ๆ. OpenRC มีลักษณะคล้ายกับ SysV แต่มีความยืดหยุ่นมากขึ้น.
 
 ### Starting and Stopping Services
 เพื่อเริ่มต้นบริการ ```systemd``` โดยใช้คำสั่งที่ระบุในไฟล์หน่วยบริการ unit file ให้ใช้คำสั่ง ```start``` สามารถใช้ ```sudo``` ถ้า	กำลังทำงานในฐานะผู้ใช้ที่ไม่ใช่ root เนื่องจากการดำเนินการนี้จะมีผลต่อสถานะของระบบปฏิบัติการ
 > [ข้อควรระวัง]
 > "start" ไม่ได้มีอยู่จริงในรุ่นของ systemd สำหรับการเริ่มต้นบริการ แต่ในบางกรณี, คำสั่ง "sudo systemctl start [ชื่อบริการ]" อาจถูกใช้แทน โปรดตรวจสอบคำสั่งที่ถูกต้องในระบบของคุณ.
 ```
-	$ sudo systemctl start <application> service`
+	$ sudo systemctl start <application> service
 ````
 อย่างที่กล่าวถึงข้างต้น ***systemd*** รู้จักค้นหาไฟล์ ```*.service ```เพื่อให้บริการคำสั่งการจัดการบริการ ดังนั้น, คำสั่งสามารถพิมพ์ได้ตามนี้:
 ```
@@ -96,12 +111,147 @@ Jan 27 19:41:23 desktop systemd[1]: Started A high performance web server and a 
 | /run/lib/systemd/system  | ไฟล์หน่วย Systemd ที่สร้างขึ้นในขณะรัน ไดเร็กทอรีนี้มีความสำคัญเหนือกว่าไดเร็กทอรีที่มีไฟล์หน่วยบริการที่ติดตั้งไว้ | 
 | /etc/lib/systemd/system   | ไฟล์หน่วย Systemd ที่สร้างโดย `systemctl enable` เช่นเดียวกับไฟล์หน่วยที่เพิ่มเพื่อขยายบริการ ไดเร็กทอรีนี้มีความสำคัญเหนือกว่าไดเร็กทอรีที่มีไฟล์หน่วยรันไทม์   |
 
+## The Linux Run Levels
+  
+ใน Linux, ระดับการทำงานหรือ **runlevels** คือโหมดหรือสถานะที่ระบบทำงานในแต่ละขณะ แต่ละ runlevel สอดคล้องกับเซ็ตที่ระบบบริการและกระบวนการที่ถูกเปิดหรือปิดการใช้งาน ระดับการทำงานระบุด้วยตัวเลขที่อยู่ในช่วง 0 ถึง 6 โค้ดเคอร์เนล Linux มาตรฐานรองรับเจ็ดระดับการทำงานทั้งหมด แต่การตั้งค่าเหล่านี้อาจแตกต่างกันไปในการกระจาย Linux และเวอร์ชัน Unix ต่าง ๆ นี่คือ **Seven runlevels** การทำงานใน Linux:
+- **Runlevel 0**:  Shuts down the system
+- **Runlevel 1**:  Single-user mode (for special administration)
+- **Runlevel 2**:  Local Multiuser with Networking but without network service (like NFS)
+- **Runlevel 3**:  Full Multiuser with Networking
+- **Runlevel 4**:  Not used
+- **Runlevel 5**:  Full Multiuser with Networking and Graphical User Interface (GUI)
+- **Runlevel 6**:  Reboots the system
+  
+ควรทราบว่า runlevel 2 ถึง 5 สามารถปรับเปลี่ยนได้ตามความต้องการของคุณเอง เมื่อระบบถูกบูต มีเพียง runlevel เดียวที่ถูกดำเนินการ และมันไม่ได้ถูกดำเนินการต่อเนื่องตามลำดับ เพื่อตรวจสอบ runlevel ปัจจุบันของระบบ Linux มีวิธีง่าย ๆ ด้วยวิธีต่อไปนี้:
+1.   ใช้คำสั่ง runlevel: `runlevel` คำสั่งนี้จะแสดง runlevel ที่ระบบกำลังทำงานอยู่ขณะนี้
+2.  ใช้คำสั่ง who: `who -r` คำสั่งนี้จะแสดง runlevel ปัจจุบันและข้อมูลอื่น ๆ
+## ตัวอย่างการเขียน Service Management
+### การติดตั้ง Service Management
+**Systemd**
+ตรวจสอบการทำงาน
+```
+	$ ps -p 1 -o comm= | grep systemd
+````
+ติดตั้งแพ็กเกจของระบบการจัดการบริการ
+```
+	$ sudo apt-get install systemd
+````
+ ติดตั้งแพ็กเกจของเครื่องมือการจัดการบริการ 
+ > ถ้าไม่ได้ถูกติดตั้ง
+ ```
+	sudo apt-get install systemd-sysv
+````
+### การเขียน Service File
+1. สร้างไฟล์บริการ (.service) ในไดเรกทอรี `/etc/systemd/system/`.** ตั้งชื่อไฟล์ตามชื่อบริการของคุณ ex. my-service.servic
+```
+	$ sudo nano /etc/systemd/system/my-service.service
+```
+2. เพิ่มข้อมูลบริการในไฟล์ .service:
+```
+[Unit]
+Description=My Custom Service
+After=network.target
+
+[Service]
+ExecStart=/path/to/your/service/executable
+Restart=always
+
+[Install]
+WantedBy=default.target
+
+```
+บันทึกและปิดไฟล์.
 
 
-# Managing services ใน Linux
-**Service** คือ โปรแกรมหรือกระบวนการที่ทำงานบนเซิร์ฟเวอร์ของคุณตลอดเวลาโดยทั่วไปตั้งแต่เซิร์ฟเวอร์เริ่มทำงาน มันถูกใช้เพื่อให้การสนับสนุนต่อเนื่องสำหรับคำขอและการตรวจสอบจากกระบวนการอื่น ๆ หรือไคลเอนต์ภายนอก ตัวอย่างของบริการที่รู้จักกันดีคือ **Apache** และ **Postfix**
+### การตั้งค่า Service
+สมมุติว่าคุณมีบริการที่เรียกว่า `my-service`. 
+#### แบบ Systemd
+1. สร้างไฟล์ `.service` สำหรับบริการใน `/etc/systemd/system/my-service.service` บันทึกและปิดไฟล์.
+```
+[Unit]
+Description=My Custom Service
+After=network.target
 
-# Init System ทำงานอยู่ที่ไหน
-- Init System คือ กระบวนการแรกที่เริ่มต้นทำงานนอกจาก **kernel** และโดยทั่วไปเป็นบริการด้านหลังที่ควบคุมเมื่อและวิธีที่บริการต่าง ๆ จะถูกเริ่มทำงาน
-เป็นระบบปฏิบัติการที่เริ่มต้นและจัดการกระบวนการ (**processes**) ต่าง ๆ ในระบบ เช่นการเปิดเครื่อง (**booting**) และการจัดการโปรแกรมหลังจากที่ระบบเริ่มทำงาน
+[Service]
+ExecStart=/path/to/your/service/executable
+Restart=always
 
+[Install]
+WantedBy=default.target
+```
+2. ทำการโหลดการตั้งค่าใหม่:
+```
+	$ sudo systemctl daemon-reload
+```
+
+3. ทดสอบการใช้คำสั่ง:
+```
+	$ sudo systemctl start my-service
+	$ sudo systemctl status my-service
+```
+
+4. เปิดใช้งาน
+```
+	$ sudo systemctl enable my-service
+```
+> โปรดทราบว่าตัวอย่างนี้เป็นแค่แนวทางทั่วไป ขึ้นอยู่กับลักษณะของบริการและระบบการจัดการบริการของระบบปฏิบัติการ Linux ที่ใช้.
+> 
+####  แบบSysVinit:
+สมมุติว่าคุณมีบริการที่เรียกว่า `my-service`. ต้องการให้บริการเริ่มต้นและทำงานในโหมด daemon
+1. สร้างไฟล์สคริปต์ใน `/etc/init.d/my-service`: บันทึกและปิดไฟล์.
+```
+#!/bin/bash
+# chkconfig: 345 20 80
+# description: My Custom Service
+
+start() {
+    /path/to/your/service/executable &
+}
+
+stop() {
+    killall my-service
+}
+
+case $1 in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+esac
+
+exit 0
+```
+2. ทำให้สคริปต์เป็นไฟล์ที่สามารถรันได้:
+```
+	$ sudo chmod +x /etc/init.d/my-service
+```
+3. ใช้ `chkconfig` เพื่อเปิดใช้บริการในโหมด startup:
+```
+	$ sudo chkconfig --add my-service
+	$ sudo chkconfig my-service on
+```
+4. ทดสอบการใช้คำสั่ง:
+```
+	$ sudo service my-service start
+	$ sudo service my-service start
+```
+>โปรดทราบว่าตัวอย่างนี้เป็นแค่แนวทางทั่วไป ขึ้นอยู่กับลักษณะของบริการและระบบการจัดการบริการของระบบปฏิบัติการ Linux ที่ใช้.
+
+### ตัวอย่างการใช้ `update-rc.d`:
+1. เพิ่มบริการให้ทำงานที่ runlevels ที่กำหนด:
+```
+	$ sudo update-rc.d <service-name> defaults
+```
+2. ลบบริการออกจากระบบการเริ่มต้น:
+```
+	$ sudo update-rc.d -f <service-name> remove
+```
