@@ -596,3 +596,19 @@ Multi-Session Command Line Utilities คือเครื่องมือท�
 >
 
 ---
+
+<a id="source"></a>
+# :card_index_dividers: Source
+> [!NOTE]
+> Vital details for quick comprehension, essential for users skimming through content.
+> - Webpage
+>    - Process Management In Linux https://unstop.com/blog/process-management-in-linux
+>    - Process Control https://medium.com/@The_CodeConductor/process-control-kill-and-pkill-commands-in-linux-64e60a677606
+>    - Check running process https://www.cyberciti.biz/faq/how-to-check-running-process-in-linux-using-command-line/
+>    - Linux/Unix Process Management Commands https://www.guru99.com/managing-processes-in-linux.html
+>    - Run Bash Script as a Daemon https://www.baeldung.com/linux/bash-daemon-script
+>    - Linux Process Priority https://www.atlantic.net/vps-hosting/how-to-set-linux-process-priority-using-nice-and-renice-commands/
+>    - Foreground & Background Process https://www.baeldung.com/linux/foreground-background-process
+>    - A beginner's guide to tmux https://www.redhat.com/sysadmin/introduction-tmux-linux
+>    - Linux Screen, With Commands https://phoenixnap.com/kb/how-to-use-linux-screen-with-commands
+
