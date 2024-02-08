@@ -131,29 +131,19 @@ Bootloader stage จะถูกเรียกใช้งานโดยอั
 - โหลด kernel: Bootloader จะโหลด kernel ของ Linux เข้าสู่หน่วยความจำ
 - ส่งต่อการควบคุม: Bootloader จะส่งต่อการควบคุมให้กับ kernel
 - Kernel: Kernel จะเริ่มต้นระบบปฏิบัติการ
-
-### ผู้ใช้สามารถ
-
-- กดปุ่มพิเศษ (เช่น F2, F10, Esc) ระหว่าง POST เพื่อเข้าสู่ BIOS/UEFI setup
   
-- เลือกลำดับการบูท (boot order) ใน BIOS/UEFI setup
-  
-- กำหนดค่า bootloader ใน bootloader configuration file
-  
-### ผลลัพธ์ที่ได้:
+### Command ที่เกี่ยวข้องกับ Bootloader stage ใน Linux
 
-- ระบบปฏิบัติการจะเริ่มต้น: หาก bootloader ค้นหาพาร์ทิชันระบบปฏิบัติการและโหลด kernel สำเร็จ ระบบปฏิบัติการจะเริ่มต้น
+Command : `GRUB`
 
-- แสดงเมนูตัวเลือก: ผู้ใช้สามารถเลือกตัวเลือกการบูท เช่น เลือก kernel เวอร์ชัน เลือกพาร์ทิชัน
+- `grub-install` : ติดตั้ง GRUB bootloader
+   - `--target=DEVICE` : ระบุอุปกรณ์เป้าหมาย เช่น `--target=/dev/sda`
+   - `--efi-directory=DIRECTORY`: ระบุไดเร็กทอรี EFI เช่น `--efi-directory=/boot/efi`
+- `grub-mkconfig` : สร้างไฟล์การกำหนดค่า GRUB
+   - `--output=FILE` : ระบุไฟล์เอาต์พุต เช่น `--output=/boot/grub/grub.cfg`
+   - `--theme=THEME` : ระบุธีม เช่น `--theme=classic`
+- `grub-reboot` : รีบูทเครื่องเพื่อใช้การกำหนดค่า GRUB ใหม่
 
-- แสดงข้อความแสดงข้อผิดพลาด: หาก bootloader พบปัญหา อาจแสดงข้อความแสดงข้อผิดพลาด
-
-### ตัวอย่าง:
-
-- GRUB: ผู้ใช้สามารถกดปุ่ม C ระหว่างการบูทเพื่อเข้าสู่ GRUB command line interface
-
-- LILO: ผู้ใช้สามารถแก้ไขไฟล์ `/etc/lilo.conf` เพื่อกำหนดค่า bootloader
-  
 > [!CAUTION]
 > ผู้ใช้ควรสำรองข้อมูลไฟล์การกำหนดค่า bootloader ก่อนทำการแก้ไข
 > 
