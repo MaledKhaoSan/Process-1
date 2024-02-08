@@ -137,11 +137,17 @@ Bootloader stage จะถูกเรียกใช้งานโดยอั
 Command : `GRUB`
 
 - `grub-install` : ติดตั้ง GRUB bootloader
+  
    - `--target=DEVICE` : ระบุอุปกรณ์เป้าหมาย เช่น `--target=/dev/sda`
+     
    - `--efi-directory=DIRECTORY`: ระบุไดเร็กทอรี EFI เช่น `--efi-directory=/boot/efi`
+     
 - `grub-mkconfig` : สร้างไฟล์การกำหนดค่า GRUB
+  
    - `--output=FILE` : ระบุไฟล์เอาต์พุต เช่น `--output=/boot/grub/grub.cfg`
+     
    - `--theme=THEME` : ระบุธีม เช่น `--theme=classic`
+     
 - `grub-reboot` : รีบูทเครื่องเพื่อใช้การกำหนดค่า GRUB ใหม่
 
 > [!CAUTION]
@@ -244,7 +250,7 @@ Options/Arguments:
 
 ตัวอย่าง:
 
--แสดงเฉพาะข้อความที่เกี่ยวข้องกับข้อผิดพลาด:
+ - แสดงเฉพาะข้อความที่เกี่ยวข้องกับข้อผิดพลาด:
 
 ```
 dmesg | grep -i "error"
