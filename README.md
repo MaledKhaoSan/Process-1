@@ -108,7 +108,7 @@ Process Components ใน Linux
 >    <tr gap="30px">
 >      <td overflow="hidden" width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/055.JPG?raw=true"/></td>
 >      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/059.png?raw=true" width="100%"/></td>
->      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/066.jpg?raw=true" width="100%"/></td>
 >    </tr>
 >    <tr>
 >      <td align="center">65070055<br>นางสาวญาตาวี  ฤกษประสูต<br>Localization</td>
@@ -120,7 +120,7 @@ Process Components ใน Linux
 ><table width="100%">
 >    <tr>
 >      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
->      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/087.jpg?raw=true" width="100%"/></td>
 >      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/090.jpg" width="100%"/></td>
 >    </tr>
 >    <tr>
