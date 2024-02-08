@@ -88,7 +88,7 @@ Process Components ใน Linux
 ><p align="center">
 ><table width="100%" gap="30px">
 >    <tr gap="30px">
->      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/055.png?raw=true" width="50%"/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/055.JPG?raw=true" width="50%"/></td>
 >      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/059.png?raw=true" width="100%"/></td>
 >      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
 >    </tr>
