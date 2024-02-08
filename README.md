@@ -74,26 +74,27 @@ Process Components ใน Linux
 	- <a href="066 l Task Scheduler/anacron/readme.md">anacron</a>
 	- <a href="066 l Task Scheduler/Systemd Timer Units/readme.md">Systemd</a>
 
-- <a href="087 l Service Management /README.md">Service Management</a>
-	- <a href="087 l Service Management /#Service-Management-type">Service Management Types</a>
-	- <a href="087 l Service Management /#startstopservice">Starting and Stopping Services</a>
-	- <a href="087 l Service Management /#enaanddis">Enabling and Disabling Services</a>
-	- <a href="087 l Service Management /#systemd">Systemd</a>	
-	- <a href="087 l Service Management /#runlevels">Run Levels</a>	
+- <a href="087 l Service Management/README.md">Service Management</a>
+	- <a href="087 l Service Management/#Service-Management-type">Service Management Types</a>
+	- <a href="087 l Service Management/#startstopservice">Starting and Stopping Services</a>
+	- <a href="087 l Service Management/#enaanddis">Enabling and Disabling Services</a>
+	- <a href="087 l Service Management/#systemd">Systemd</a>	
+	- <a href="087 l Service Management/#runlevels">Run Levels</a>	
 
-- [Alignments](#alignments)
-- [Tables](#tables)
-- [Links](#links)
-	* [Inline](#inline)
-	* [Reference](#reference)
-	* [Relative](#relative)
-	* [Auto](#auto)
-	* [Section](#section)
-- [Images](#images)
-- [Lists](#lists)
-	* [Ordered](#ordered)
-	* [Unordered](#unordered)
-	* [Task](#task)
+- <a href="090 l System Time/README.md">System Time</a>
+	- <a href="090 l System Time/#hwclock">Hardware Clock</a>
+	- <a href="090 l System Time/#sysclock">System clock</a>
+	- <a href="090 l System Time/#ntp">Network Time Protocol (NTP)</a>
+	- <a href="090 l System Time/#strlayer">Stratum layer</a>	
+	- <a href="090 l System Time/#chrony">Understanding chrony</a>	
+
+- <a href="055 l Localization/README.md">Localization</a>
+	- <a href="055 l Localization/#POSIX">POSIX Locale</a>
+	- <a href="055 l Localization/#ThaiLocale">Thai Locale</a>
+	- <a href="055 l Localization/#localecmd">Locale Command</a>
+	- <a href="055 l Localization/#setsys">Set System Locale in Linux</a>	
+	- <a href="055 l Localization/#tzselect">TZ Select</a>	
+
 
 ---
 
