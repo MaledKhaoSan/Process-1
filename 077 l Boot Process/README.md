@@ -255,7 +255,6 @@ Options/Arguments:
 ```
 dmesg | grep -i "error"
 ```
----
 
 > [!CAUTION]
 > การดึงข้อมูล dmesg อยู่ตลอดเวลาอาจทำให้ระบบทำงานช้าลง
