@@ -88,7 +88,7 @@ Process Components ใน Linux
 ><p align="center">
 ><table width="100%" gap="30px">
 >    <tr gap="30px">
->      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/055.JPG?raw=true" height: '100%'/></td>
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/055.JPG?raw=true" class="your-favorite-image"/></td>
 >      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/059.png?raw=true" width="100%"/></td>
 >      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
 >    </tr>
@@ -113,6 +113,10 @@ Process Components ใน Linux
 ></table>
 ></p>
 
+.your-favorite-image {
+	object-fit: contain;
+	font-family: 'object-fit: contain;';
+}
 ---
 
 <a id="source"></a>
