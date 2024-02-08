@@ -390,13 +390,8 @@ initramfs (initial RAM filesystem) คือระบบไฟล์รูทเ
 ตัวอย่าง:
 
 ```
-`shutdown -h now`: shutdown
+shutdown -c: ยกเลิก shutdown
 
-`shutdown -r`: reboot
-
-`shutdown -c`: ยกเลิก shutdown
-
-`shutdown -t 60 "System will shutdown in 60 seconds"`: รอ 60 วินาทีก่อน shutdown
 ```
 
 3. systemctl:
@@ -422,17 +417,9 @@ initramfs (initial RAM filesystem) คือระบบไฟล์รูทเ
 ตัวอย่าง:
 
 ```
-`systemctl -h`: แสดง help
-
 `systemctl -l`: แสดงรายชื่อ services
 
-`systemctl -i ssh.service`: แสดง information เกี่ยวกับ ssh service
-
-`systemctl -s`: shutdown
-
-`systemctl -r`: reboot
 ```
-
 
 > [!CAUTION]
 > การเปลี่ยน init stage โดยไม่ได้ตั้งใจอาจทำให้ระบบหยุดทำงาน
