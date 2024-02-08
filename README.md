@@ -95,6 +95,12 @@ Process Components ใน Linux
 	- <a href="055 l Localization/#setsys">Set System Locale in Linux</a>	
 	- <a href="055 l Localization/#tzselect">TZ Select</a>	
 
+- <a href="077 l Boot Process/README.md">Boot Process</a>
+	- <a href="077 l Boot Process/#Firmwarestage">Firmware Stage</a>
+	- <a href="077 l Boot Process/#Bootloaderstage">Bootloader Stage</a>
+	- <a href="077 l Boot Processn/#Kernelstage">Kernel Stage</a>
+	- <a href="077 l Boot Process/#Initstage">Init stage</a>	
+
 
 ---
 
