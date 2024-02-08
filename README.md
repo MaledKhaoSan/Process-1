@@ -37,22 +37,22 @@ Process Components ใน Linux
 คือส่วนหนึ่งของระบบปฏิบัติการที่จัดการกับการทำงานของกระบวนการ (Processes) ในระบบ ซึ่งรวมถึงการจัดการกระบวนการเริ่มต้น (Boot Process), การจัดการกระบวนการทั่วไป (Process Management), การจัดการบริการ (Service Management), และตัวตั้งเวลางาน (Task Scheduler) ที่มีบทบาทสำคัญในการทำงานของระบบปฏิบัติการ Linux.
 
 
-## ลักษณะสำคัญของ Process:
-	* มีเอกลักษณ์: แต่ละ process จะมี PID (Process ID) ที่ไม่ซ้ำกัน
-	* มีสถานะ: Process มีสถานะต่างๆ เช่น รัน (Running), รอ (Waiting), หยุด (Stopped)
-	* มีลำดับความสำคัญ: Process แต่ละ process จะมีลำดับความสำคัญที่กำหนดว่า process ใดควรได้รับทรัพยากรระบบก่อน
-	* มีทรัพยากร: Process แต่ละ process จะมีหน่วยความจำ พื้นที่ว่างบนดิสก์ และทรัพยากรระบบอื่นๆ ของตัวเอง
-	* มีอิสระ: Process แต่ละ process ทำงานแยกกัน ไม่รบกวนกัน
+## :paperclip: ลักษณะสำคัญของ Process:
+- มีเอกลักษณ์: แต่ละ process จะมี PID (Process ID) ที่ไม่ซ้ำกัน
+- มีสถานะ: Process มีสถานะต่างๆ เช่น รัน (Running), รอ (Waiting), หยุด (Stopped)
+- มีลำดับความสำคัญ: Process แต่ละ process จะมีลำดับความสำคัญที่กำหนดว่า process ใดควรได้รับทรัพยากรระบบก่อน
+- มีทรัพยากร: Process แต่ละ process จะมีหน่วยความจำ พื้นที่ว่างบนดิสก์ และทรัพยากรระบบอื่นๆ ของตัวเอง
+- มีอิสระ: Process แต่ละ process ทำงานแยกกัน ไม่รบกวนกัน
 
-## ประเภทของ Process:
-	* Foreground process: Process ที่ผู้ใช้กำลังโต้ตอบอยู่
-	* Background process: Process ที่ทำงานอยู่เบื้องหลัง ไม่ได้โต้ตอบกับผู้ใช้
-	* Daemon: Process ที่ทำงานอยู่เบื้องหลัง โดยปกติจะเริ่มต้นเมื่อระบบบูต และทำงานต่อไปจนกว่าระบบจะปิด
+## :paperclip: ประเภทของ Process:
+- Foreground process: Process ที่ผู้ใช้กำลังโต้ตอบอยู่
+- Background process: Process ที่ทำงานอยู่เบื้องหลัง ไม่ได้โต้ตอบกับผู้ใช้
+- Daemon: Process ที่ทำงานอยู่เบื้องหลัง โดยปกติจะเริ่มต้นเมื่อระบบบูต และทำงานต่อไปจนกว่าระบบจะปิด
 
-## ความสำคัญของ Process:
-	* การทำงานหลายอย่างพร้อมกัน: Process ช่วยให้ผู้ใช้สามารถทำงานหลายอย่างพร้อมกันบนระบบ Linux
-	* การใช้ทรัพยากรอย่างมีประสิทธิภาพ: Process ช่วยให้ระบบ Linux สามารถใช้ทรัพยากรระบบอย่างมีประสิทธิภาพ
-	* การปรับแต่งระบบ: Process ช่วยให้ผู้ใช้สามารถปรับแต่งระบบ Linux ให้ทำงานตามต้องการ
+## :paperclip: ความสำคัญของ Process:
+- การทำงานหลายอย่างพร้อมกัน: Process ช่วยให้ผู้ใช้สามารถทำงานหลายอย่างพร้อมกันบนระบบ Linux
+- การใช้ทรัพยากรอย่างมีประสิทธิภาพ: Process ช่วยให้ระบบ Linux สามารถใช้ทรัพยากรระบบอย่างมีประสิทธิภาพ
+- การปรับแต่งระบบ: Process ช่วยให้ผู้ใช้สามารถปรับแต่งระบบ Linux ให้ทำงานตามต้องการ
 
 
 ---
@@ -128,14 +128,3 @@ Process Components ใน Linux
 >    - Guide to Linux Filesystems | Baeldung on Linux. https://www.baeldung.com/linux/filesystems.
 >    - Partitions And Filesystems In Linux – Introduction. https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems.
 >    - Linux File System - javatpoint. https://www.javatpoint.com/linux-file-system.
-
-
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
