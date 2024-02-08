@@ -67,12 +67,12 @@ Process Components ใน Linux
 	- <a href="059 l Process Management/#process-priority">Process Priority</a>
 	- <a href="059 l Process Management/#monitoring-processes">Monitoring Processes</a>
 	- <a href="059 l Process Management/#Multi-Session">Multi-Session Command Line Utilities</a>
-	
+
 - <a href="066 l Task Scheduler/README.md">Task Schedular</a>
-	- <a href="066 l Task Scheduler/cron/README.md">cron</a>
-	- <a href="066 l Task Scheduler/at/README.md">at</a>
-	- <a href="066 l Task Scheduler/anacron/README.md">anacron</a>
-	- <a href="066 l Task Scheduler/Systemd Timer Units/README.md">Systemd</a>
+	- <a href="066 l Task Scheduler/cron/readme.md">cron</a>
+	- <a href="066 l Task Scheduler/at/readme.md">at</a>
+	- <a href="066 l Task Scheduler/anacron/readme.md">anacron</a>
+	- <a href="066 l Task Scheduler/Systemd Timer Units/readme.md">Systemd</a>
 
 - <a href="087 l Service Management /README.md">Service Management</a>
 	- <a href="087 l Service Management /#Service-Management-type">Service Management Types</a>
