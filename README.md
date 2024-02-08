@@ -68,7 +68,7 @@ Process Components ใน Linux
 	- <a href="059 l Process Management/#monitoring-processes">Monitoring Processes</a>
 	- <a href="059 l Process Management/#Multi-Session">Multi-Session Command Line Utilities</a>
 
-- <a href="066 l Task Scheduler/README.md">Task Schedular</a>
+- <a href="066 l Task Scheduler/readme.md">Task Schedular</a>
 	- <a href="066 l Task Scheduler/cron/readme.md">cron</a>
 	- <a href="066 l Task Scheduler/at/readme.md">at</a>
 	- <a href="066 l Task Scheduler/anacron/readme.md">anacron</a>
