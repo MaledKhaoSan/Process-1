@@ -235,3 +235,11 @@ $ system-config-date
 * คำสั่ง tzselect แสดงค่าสำหรับตัวแปร แต่มันไม่ได้ตั้งค่าตัวแปรนั้น
 * ตัวอย่างเช่น หากผู้ใช้อยู่ในรัฐอิซาโกน่า และใช้คำสั่ง tzselect มันจะแจ้งให้ผู้ใช้ตั้งค่าตัวแปร TZ เป็นค่า "America/Phoenix"
 * เมื่อใช้คำสั่ง tzselect จะถามคำถามที่เกี่ยวข้องกับทวีปหรือสถานที่ในมหาสมุทรของคุณ
+
+## References
+* https://linux.thai.net/pub/thailinux/cvs/docs/thai-howto2/Thai-HOWTO/Thai-HOWTO-2.html
+* https://www.baeldung.com/linux/locale-environment-variables
+* https://docs.oracle.com/en/learn/oracle-linux-localization/#update-the-system-locale-and-language
+* https://developers.localizejs.com/docs/localize-cli
+* https://www.tecmint.com/set-system-locales-in-linux/
+* https://www.secur.cc/how-to-localize-linux/
