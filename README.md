@@ -119,7 +119,7 @@ Process Components ใน Linux
 ><br>
 ><table width="100%">
 >    <tr>
->      <td width="33%"><img src="https://github.com/MaledKhaoSan/Process-1/blob/main/assets/077.jpeg?raw=true" width="100%"/></td>  
+>      <td width="33%"><img src="https://github.com/MaledKhaoSan/Process-1/blob/main/assets/077.png?raw=true" width="100%"/></td>  
 >      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/087.jpg?raw=true" width="100%"/></td>
 >      <td width="33%"><img src="https://github.com/MaledKhaoSan/Project-Comor/blob/main/assets/090.jpg" width="100%"/></td>
 >    </tr>
