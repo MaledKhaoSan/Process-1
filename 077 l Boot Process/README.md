@@ -385,40 +385,38 @@ initramfs (initial RAM filesystem) คือระบบไฟล์รูทเ
   
 - Arguments:
 
-    -`<message>`: ข้อความแจ้งเตือนผู้ใช้ก่อน shutdown
+    -`<message>` : ข้อความแจ้งเตือนผู้ใช้ก่อน shutdown
   
 ตัวอย่าง:
 
 ```
 shutdown -c: ยกเลิก shutdown
-
 ```
 
 3. systemctl:
 
 - Options:
 
-    - `-h`: แสดง help
+    - `-h` : แสดง help
 
-    - `-l`: แสดงรายชื่อ services
+    - `-l` : แสดงรายชื่อ services
 
-    - `-i`: แสดง information เกี่ยวกับ service
+    - `-i` : แสดง information เกี่ยวกับ service
 
-    - `-s`: shutdown
+    - `-s` : shutdown
 
-    - `-r`: reboot
+    - `-r` : reboot
 
 - Arguments:
 
-    - `<command>`: คำสั่ง systemctl
+    - `<command>` : คำสั่ง systemctl
   
-    - `<service>`: ชื่อ service
+    - `<service>` : ชื่อ service
   
 ตัวอย่าง:
 
 ```
-`systemctl -l`: แสดงรายชื่อ services
-
+  systemctl -l: แสดงรายชื่อ services
 ```
 
 > [!CAUTION]
