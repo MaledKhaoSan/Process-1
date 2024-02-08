@@ -93,9 +93,9 @@ Process Components ใน Linux
 >      <td width="33%"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="100%"/></td>
 >    </tr>
 >    <tr>
->      <td align="center">65070055<br>นางสาวญาตาวี  ฤกษประสูต<br>duty</td>
+>      <td align="center">65070055<br>นางสาวญาตาวี  ฤกษประสูต<br>Localization</td>
 >      <td align="center">65070059<br>นายณฏฐพล สวัสดิ์มูล<br>Process Management</td>
->      <td align="center">65070066<br>นางสาวณัฏฐณิชา  สุวรรณพยัคฆ์<br>duty</td>
+>      <td align="center">65070066<br>นางสาวณัฏฐณิชา  สุวรรณพยัคฆ์<br>Task Scheduler</td>
 >    </tr>
 ></table>
 ><br>
@@ -107,7 +107,7 @@ Process Components ใน Linux
 >    </tr>
 >    <tr>
 >      <td align="center">65070077<br>นางสาวณัฐนันท์  งามสมุทร<br>Boots Process</td>
->      <td align="center">65070087<br>นายดราคริสต์  ปล้องไม้<br>duty</td>
+>      <td align="center">65070087<br>นายดราคริสต์  ปล้องไม้<br>Service Management</td>
 >      <td align="center">65070090<br>นายธนกฤต  สิงห์สังข์<br>System Time</td>
 >    </tr>
 ></table>
