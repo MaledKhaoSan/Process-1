@@ -59,11 +59,17 @@ Process Components ใน Linux
 
 <a id="table"></a>
 # :books: Table of contents
-
 - <a href="059 l Process Management/README.md">Process Management</a>
-	- <a href="059 l Process Management/#test">Process Management</a>
-	* [Inline code](#inline-code)
-	* [Code block](#code-block)
+	- <a href="059 l Process Management/#process-initiation">Process Initiation</a>
+	- <a href="059 l Process Management/#process-tracking">Process Tracking</a>
+	- <a href="059 l Process Management/#process-control">Process Control</a>
+	- <a href="059 l Process Management/#process-termination">Process Termination</a>
+	- <a href="059 l Process Management/#process-priority">Process Priority</a>
+	- <a href="059 l Process Management/#monitoring-processes">Monitoring Processes</a>
+	- <a href="059 l Process Management/#Multi-Session">Multi-Session Command Line Utilities</a>
+
+	Multi-Session Command Line Utilities
+
 - [Alignments](#alignments)
 - [Tables](#tables)
 - [Links](#links)
