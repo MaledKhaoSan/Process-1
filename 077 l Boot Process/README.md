@@ -343,39 +343,39 @@ initramfs (initial RAM filesystem) คือระบบไฟล์รูทเ
 
 - Options:
 
-    - `n`: ไม่เปลี่ยน init stage จริง แสดงผลลัพธ์ที่จะเกิดขึ้น
+    - `n` : ไม่เปลี่ยน init stage จริง แสดงผลลัพธ์ที่จะเกิดขึ้น
   
-    - `q`: เงียบ ไม่แสดงข้อความใด ๆ
+    - `q` : เงียบ ไม่แสดงข้อความใด ๆ
   
-    - `s`: shutdown
+    - `s` : shutdown
   
-    - `t`: seconds รอ seconds วินาทีก่อน shutdown
+    - `t` : seconds รอ seconds วินาทีก่อน shutdown
       
 - Arguments:
 
-    -`<level`>: ระดับ init stage (0-6)
+    -`<level>` : ระดับ init stage (0-6)
   
 ตัวอย่าง:
 
-- `init -n 3`: แสดงผลลัพธ์ที่จะเกิดขึ้นหากเปลี่ยน init stage ไปที่ 3
+- `init -n 3` : แสดงผลลัพธ์ที่จะเกิดขึ้นหากเปลี่ยน init stage ไปที่ 3
 
-- `init -q 0`: ปิดเครื่องเงียบ ๆ
+- `init -q 0` : ปิดเครื่องเงียบ ๆ
 
-- `init -s`: shutdown
+- `init -s` : shutdown
 
-- `init -t 60 0`: รอ 60 วินาทีก่อน shutdown
+- `init -t 60 0` : รอ 60 วินาทีก่อน shutdown
 
 2. shutdown:
 
 - Options:
 
-    - `-h`: shutdown
+    - `-h` : shutdown
   
-    - `-r`: reboot
+    - `-r` : reboot
   
-    - `-c`: ยกเลิก shutdown
+    - `-c` : ยกเลิก shutdown
   
-    - `-t`: seconds รอ seconds วินาทีก่อน shutdown
+    - `-t` : seconds รอ seconds วินาทีก่อน shutdown
   
 - Arguments:
 
@@ -399,7 +399,7 @@ initramfs (initial RAM filesystem) คือระบบไฟล์รูทเ
 
     - `-l`: แสดงรายชื่อ services
 
-    - `i`: แสดง information เกี่ยวกับ service
+    - `-i`: แสดง information เกี่ยวกับ service
 
     - `-s`: shutdown
 
