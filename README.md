@@ -114,7 +114,8 @@ Process Components ใน Linux
 ></p>
 
 .your-favorite-image {
-	object-fit: contain;
+	object-fit: cover;
+ 	height: 100%;
 	font-family: 'object-fit: contain;';
 }
 ---
